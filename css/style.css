@@ -234,7 +234,7 @@ h1{
 
 }
 .overlay img{ 
-	max-height: 45%; 
+	max-height: 60%; 
 	box-shadow: 2px 2px 15px rgba(0,0,0,0.9);
 }
 
@@ -261,7 +261,7 @@ h1{
 	position: absolute;
 	top: 70px;
 	left: 52%;
-	margin-left: -30pxgi;
+	margin-left: -30px;
 }
 .prev{
 	margin-left: 50px;

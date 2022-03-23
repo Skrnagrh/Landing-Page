@@ -260,10 +260,10 @@ h1{
 	height: 45px;
 	position: absolute;
 	top: 70px;
-	margin-left: -60px;
+	margin-left: -40px;
 }
 .prev{
-	margin-left: 30px;
+	margin-left: 60px;
 }
 iframe{
 	width: 300px;

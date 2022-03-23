@@ -256,11 +256,24 @@ h1{
 
 /* Next & Prev Untuk Gambar */
 .next, .prev{
-	width: 30px;
+	position: absolute;
+	text-transform: uppercase;
+	font-size: bold;
+	top: 70px;
+	left: 47%;
+	margin-left: -40px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: black;
+	border: 1px solid white;
+	line-height: 10px;
+	padding: 3px;
+	animation-duration: 1s;
+	/* width: 30px;
 	height: 45px;
 	position: absolute;
 	top: 70px;
-	margin-left: -50px;	
+	margin-left: -50px;	 */
 }
 .prev{
 	margin-left: 40px;

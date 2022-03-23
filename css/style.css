@@ -259,7 +259,8 @@ h1{
 	width: 30px;
 	height: 45px;
 	position: absolute;
-	top: 70px;	
+	top: 70px;
+	margin-left: -60px;	
 }
 .next{
 	left: 42%;

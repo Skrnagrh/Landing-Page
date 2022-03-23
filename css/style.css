@@ -211,7 +211,7 @@ h1{
 	margin-bottom: 5px;
 	font-family: 'Praise', 'Vujahday Script', cursive;
 	}
-/* Overlay Backggound Gambar Setelah di Klik */
+/* Overlay Backggound Gambar Setelah di Klik di Mobile*/
 .overlay{
 	width: 0;
 	height: 0;
@@ -264,7 +264,7 @@ h1{
 	margin-left: -40px;
 }
 .prev{
-	margin-left: 60px;
+	margin-left: 40px;
 }
 iframe{
 	width: 300px;

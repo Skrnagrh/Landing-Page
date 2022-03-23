@@ -237,7 +237,7 @@ h1{
 	max-height: 60%;
 }
 .overlay img .gmbr{ 
-	max-height: 50%; 
+	max-height: 40%; 
 	box-shadow: 2px 2px 15px rgba(0,0,0,0.9);
 }
 
@@ -263,7 +263,7 @@ h1{
 	height: 45px;
 	position: absolute;
 	top: 70px;
-	margin-left: -50px;
+	margin-left: -60px;
 }
 .prev{
 	margin-left: 40px;

@@ -259,12 +259,13 @@ h1{
 	width: 30px;
 	height: 45px;
 	position: absolute;
-	top: 70px;
-	left: 52%;
-	margin-left: -40px;
+	top: 70px;	
+}
+.next{
+	left: 42%;
 }
 .prev{
-	margin-left: 40px;
+	margin-left: 30px;
 }
 iframe{
 	width: 300px;

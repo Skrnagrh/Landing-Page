@@ -234,6 +234,9 @@ h1{
 
 }
 .overlay img{ 
+	max-height: 60%;
+}
+.overlay img .gmbr{ 
 	max-height: 50%; 
 	box-shadow: 2px 2px 15px rgba(0,0,0,0.9);
 }

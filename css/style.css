@@ -1,0 +1,426 @@
+/*Semua Halaman Navbar*/
+.navbar{
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-style: bold;
+}
+.navbar-nav{
+	font-size: 18px;
+	font-style: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Akhir Semua Halaman Navbar*/
+
+/*Semua Halaman Jumbotron*/
+.jumbotron{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 340px;
+	text-align: center;
+	position: relative;
+}
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.96), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+.jumbotron .display{
+	color: white;
+	font-weight: 200px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.jumbotron .display span{
+	font-weight: 500;
+}
+/*Akhir Semua Halaman Jumbotron*/
+
+/*Panel*/
+.info-panel{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	background-color: white;
+	z-index: 1;
+	padding: 30px;
+}
+.info-panel img{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.info-panel h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.info-panel p{
+	font-size: 14px;
+	color: #acacac;
+	margin-top: -5px;
+	font-weight: 200;
+}
+.formulir-panel{
+	margin-top: -180px;
+	z-index: 1;
+	padding: 30px;
+}
+.formulir-panel p{
+	font-size: 30px;
+	color: #ffffff;
+	margin-top: -5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Akhir Panel*/
+
+/*Halaman Galeri*/
+.info-panel-galery{
+	text-align: center;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -50px;
+	background-color: white;
+	z-index: 1;
+	padding: 30px;
+}
+#galery{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+}
+#galery img{
+	border-radius: 15px;
+}
+h1{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Card dan Gambar Halaman Galeri*/
+.section1{
+	margin-top: 100px;
+}
+
+.section2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.card{
+	border-radius: 15px;
+}
+.card img{
+	border-radius: 15px 15px 0 0;
+}
+/*Akhir Halaman Galeri*/
+
+/*Button*/
+.tombol{
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+/*Akhir Button*/
+
+/*Halaman Index workingspace*/
+.workingspace{
+	margin-top: 80px;
+	text-align: center;	
+}
+.workingspace .img-fluid{
+	border-radius: 10px;
+}
+.workingspace h3{
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.workingspace h3 span{
+	font-weight: 500;
+}
+.workingspace p{
+	font-size: 18px;
+	color: #acacac;
+	font-weight: 200;
+	margin: 15px 0;
+}
+/*Akhir Workingspace*/
+
+/* About */
+#about{
+	margin-top: 100px;
+}
+#about h3{
+	font-weight: 500;
+	text-align: center;
+}
+/* Akhir About */
+
+/* Halaman Index Testimonial */
+.testimonial{
+	margin-top: 100px;
+}
+.testimonial h5{
+	text-align: center;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 24px;
+}
+.testimonial .figure img{
+	width: 70px;
+	margin: 20px 15px 10px;
+	opacity: 0.6;
+}
+
+.testimonial figure h5{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #1c2c5d;
+}
+.testimonial figure p{
+	font-size: 12px;
+	color: #acacac;
+	margin-top: -5px !important;
+}
+.testimonial figcaption{
+	text-align: center;
+}
+/*Akhir Testimonial*/
+
+#galery img{
+	border-radius: 15px;
+	box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+}
+#galery h2{
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: 200;
+	margin-bottom: 5px;
+	font-family: 'Praise', 'Vujahday Script', cursive;
+	}
+/* Overlay Backggound Gambar Setelah di Klik */
+.overlay{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.474);	
+	transition: .8s;
+	text-align: center;
+	padding: 100px 0;
+}
+.overlay:target{
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background: rgb(0, 0, 0,0.9);
+	z-index: 9999;
+
+}
+.overlay img{ 
+	max-height: 50%; 
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.9);
+}
+
+.overlay .close{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: bold;
+	top: 70px;
+	left: 47%;
+	margin-left: -20px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: black;
+	border: 1px solid white;
+	line-height: 10px;
+	padding: 3px;
+	animation-duration: 1s;
+}
+
+/* Next & Prev Untuk Gambar */
+.next, .prev{
+	width: 30px;
+	height: 45px;
+	position: absolute;
+	top: 70px;
+	margin-left: -60px;
+}
+.prev{
+	margin-left: 30px;
+}
+iframe{
+	width: 300px;
+	height: 250px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	margin-left: 5%;
+	box-shadow: 0 0px 10px rgba(0,0,0,0.9);
+}
+/* Overlay Backggound Gambar Setelah di Klik */
+
+#komentar .card{
+	margin-top: 100px;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 30px;
+}
+
+/* contact */
+#contact{
+	background-color: #0099ff;
+	z-index: 1;
+	margin-top: -20px;
+}
+#contact h4{
+	font-size: 17px;
+	color: #ffffff;
+	margin-left: 20px;
+}
+#contact img{
+	width: 35px;
+	height: 35px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+/* akhir  */
+
+/*Semua Halaman Footer*/
+footer {
+        font-size: 15px;
+		margin-top: 5px;
+		font-family: 'Praise';
+		font-family: 'Vujahday Script', cursive;
+    }
+    footer .footer-above {
+        padding-bottom: 0;
+    }
+
+    footer .footer-below {
+		padding: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+/*Akhir Semua Halaman Footer*/
+
+/* Untuk Versi Desktop */
+@media (min-width: 992px){
+	/*Semua Halaman Navber*/
+	.navbar-brand, .nav-link{
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #0B63DC;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+	/*Akhir Semua Halaman Navbar*/
+
+	/*Semua Halaman jumbotron*/
+	.jumbotron{
+		margin-top: -75px;
+		height: 640px;
+	}
+	/*Akhir Semua Halaman jumbotron*/
+
+	/*Halaman index Workingspace*/
+	.workingspace{
+		text-align: left;
+	}
+	.testimonial h5{
+		font-size: 30px;
+	}
+	/*Akhir Halaman index Workingspace*/
+
+	/* Overlay Backggound Gambar Setelah di Klik */
+	.overlay{
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.474);	
+		transition: .8s;
+		text-align: center;
+		padding: 100px 0;
+	}
+	.overlay:target{
+		width: auto;
+		height: auto;
+		bottom: 0;
+		right: 0;
+		background: rgb(0, 0, 0,0.9);
+		z-index: 9999;
+
+	}
+	.overlay img{ 
+		max-height: 100%; 
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.9);
+	}
+
+	.overlay .close{
+		position: absolute;
+		text-transform: uppercase;
+		top: 50px;
+		left: 50%;
+		margin-left: -20px;
+		color: #ffffff;
+		text-decoration: none;
+		background-color: black;
+		border: 1px solid white;
+		line-height: 20px;
+		padding: 5px;
+		animation-duration: 1s;
+	}
+
+	/* Next & Prev Untuk Gambar */
+	.next, .prev{
+		width: 35px;
+		height: 45px;
+		position: absolute;
+		top: 50%;
+		margin-left: 50px;
+	}
+	.prev{
+		margin-left: -100px;
+	}
+	iframe{
+		width: 1000px;
+		height: 500px;
+		margin-bottom: 20px;
+		border-radius: 20px;
+		box-shadow: 0 0px 10px rgba(0,0,0,0.9);
+	}
+	
+	/* Overlay Backggound Gambar Setelah di Klik */
+
+	
+}
+/*Akhir Untuk Versi Desktop*/
